@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors({
     origin:[
         "http://localhost:5173", // React URL
-        "https://ai-hub-backend-swart.vercel.app/",
+        "https://aihub-main.vercel.app",
         "https://aihub-backend-uv4n.onrender.com/",
     ],
     credentials: true
