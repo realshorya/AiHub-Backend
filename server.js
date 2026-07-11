@@ -18,7 +18,7 @@ app.use(cors({
     origin:[
         "http://localhost:5173", // React URL
         "https://aihub-main.vercel.app",
-        "https://aihub-backend-uv4n.onrender.com/",
+        "https://ai-hub-backend-swart.vercel.app/",
     ],
     credentials: true
 }));
